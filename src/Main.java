@@ -2,14 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int num ;
+        int num[] = {1,3,5,7,9};
         Scanner scan = new Scanner(System.in);
         System.out.println("input any number");
-        num = scan.nextInt();
-        int i = num;
-        while (num<=i+10){
-            System.out.println(num);
-            num=num+1;
-        }
+        int i = scan.nextInt();
+        int total = 0;
+        for(int e=0; e<=i-1; e++)
+            total=total+num[e];
+        System.out.println(total);
     }
 }
