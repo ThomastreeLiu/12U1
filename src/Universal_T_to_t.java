@@ -14,24 +14,27 @@ public class Universal_T_to_t {
                 i=2;
         }
 //calculate the exact value
-        digit=digit-1;
+        //digit=digit+1;
         int rec = digit;
-        System.out.println("Total "+(digit+1)+" digit(s)\n");
-        int[] numb = new int[digit];
+        System.out.println("Total "+(digit)+" digit(s)\n");
+        int[] numb = new int[digit+1];
         while(digit>=0){
             if (Math.pow(2,digit)<=numd) {
-                System.out.println("digit in "+(digit+1));
-                numb[digit-1] = 1;
+                System.out.println("1 in digit "+(digit+1));
+                numb[digit] = 1;
                 numd= (int) (numd-Math.pow(2,digit));
                 digit=digit-1;
-
             }
             else {
+                numb[digit]=0;
                 digit = digit - 1;
             }
         }
         System.out.println("The binary number is:");
-        for (int i = rec;i>0;i--)
-            System.out.print(numb[rec]);
+        for (int i = rec;i>0;i--) {
+            if (i % 4 == 0)
+                System.out.print(" ");
+            System.out.print(numb[i - 1]);
+        }
     }
 }

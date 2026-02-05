@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3314664c-ab81-40f6-9062-8afdc8ad00b5" name="更改" comment="training">
-      <change afterPath="$PROJECT_DIR$/src/Full_functional_T_to_what.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/T_to_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Universal_T_to_t.java" afterDir="false" />
+    <list default="true" id="3314664c-ab81-40f6-9062-8afdc8ad00b5" name="更改" comment="T_to_t finished&#10;others doesn't work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Universal_T_to_t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Universal_T_to_t.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "应用程序.Full_functional_T_to_what.executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.T_to_t.executor": "Run",
-    "应用程序.Universal_T_to_t.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;应用程序.Full_functional_T_to_what.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.T_to_t.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Universal_T_to_t.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -91,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1770053490907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="T_to_t finished&#10;others doesn't work">
+      <option name="closed" value="true" />
+      <created>1770241808147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770241808147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create" />
     <MESSAGE value="variable" />
     <MESSAGE value="training" />
-    <option name="LAST_COMMIT_MESSAGE" value="training" />
+    <MESSAGE value="T_to_t finished&#10;others doesn't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="T_to_t finished&#10;others doesn't work" />
   </component>
 </project>
