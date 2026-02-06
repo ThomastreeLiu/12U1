@@ -36,23 +36,35 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="38zHfb4sBijusIvTBbSjDC8uP7y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;应用程序.Full_functional_T_to_what.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.T_to_t.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Universal_T_to_t.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Universal_T_to_t.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/thomastree/12U1",
+    "settings.editor.selected.configurable": "jvm.logging",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Full_functional_T_to_what.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.T_to_t.executor": "Run",
+    "应用程序.Universal_T_to_t.executor": "Run"
   }
-}</component>
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -61,6 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769795587283</updated>
+      <workItem from="1770400932259" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <option name="closed" value="true" />
@@ -105,6 +118,9 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create" />
     <MESSAGE value="variable" />
@@ -112,5 +128,9 @@
     <MESSAGE value="T_to_t finished&#10;others doesn't work" />
     <MESSAGE value="universal t to t finished&#10;others doesn't work" />
     <option name="LAST_COMMIT_MESSAGE" value="universal t to t finished&#10;others doesn't work" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
