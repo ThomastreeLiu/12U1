@@ -1,6 +1,6 @@
 //Author:Thomas
-//Name:SnowmanJumble
-//Date:nov29
+//Name:ancient stone
+//Date:feb.10
 //Purpose:complete the graph
 
 import javax.swing.*;
@@ -8,39 +8,70 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SnowmanJumble extends JPanel implements ActionListener {
-    JTextField number = new JTextField(5);
-    JButton stone1 = new JButton(createImageIcon("stone1.jpg");
-    public SnowmanJumble() {
+public class ancient_stone extends JPanel implements ActionListener {
+//    JTextField number = new JTextField(5);
+    JButton stone1 = new JButton(createImageIcon("stone1.jpg")); 
+    JButton stone2 = new JButton(createImageIcon("stone2.jpg"));
+    JButton stone3 = new JButton(createImageIcon("stone3.jpg"));
+    JButton stone4 = new JButton(createImageIcon("stone4.jpg"));
+//    JButton stoneq = new JButton(createImageIcon("stone_quest.jpg");
+    public ancient_stone() {
         setBackground(Color.BLUE);
         JLabel pic = new JLabel(createImageIcon("stone_quest.jpg"));
         JLabel txt = new JLabel("choose the correct one fit the graph");
         txt.setForeground(Color.WHITE);
-        stone1.setBackground(Color.WHITE);
+       
+       	stone1.setBackground(Color.WHITE);
         stone1.setForeground(Color.BLUE);
+	ImageIcon icon = new ImageIcon("stone1.png");
+	stone1.setIcon(icon);
         stone1.setOpaque(true);
         stone1.addActionListener(this);
-        stone1.setActionCommand("Guess");
-        add(pic);
+       	stone1.setActionCommand("Guess1");
+       
+        stone2.setBackground(Color.WHITE);
+        stone2.setForeground(Color.BLUE);
+	ImageIcon icon = new ImageIcon("stone2.png");
+	stone2.setIcon(icon);
+        stone2.setOpaque(true);
+        stone2.addActionListener(this);
+        stone2.setActionCommand("Guess2");
+       
+       	stone3.setBackground(Color.WHITE);
+       	stone3.setForeground(Color.BLUE);
+	ImageIcon icon = new ImageIcon("stone3.png");
+	stone3.setIcon(icon);
+       	stone3.setOpaque(true);
+        stone3.addActionListener(this);
+        stone3.setActionCommand("Guess3");
+       
+       	stone4.setBackground(Color.WHITE);
+        stone4.setForeground(Color.BLUE);
+	ImageIcon icon = new ImageIcon("stone4.png");
+	stone4.setIcon(icon);
+        stone4.setOpaque(true);
+        stone4.addActionListener(this);
+        stone4.setActionCommand("Guess4");
+         
+	add(pic);
         add(txt);
-        add(number);
+ //       add(number);
         add(stone1);
+	add(stone2);
+	add(stone3);
+	add(stone4);
 	//end up at here
 //constructor with initializing code in here
     }
     public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand ().equals ("Guess")){
-            int num = Integer.parseInt(number.getText());
-            if (num==16)
-                JOptionPane.showMessageDialog(null,"Correct!");
-            else if (num>12&&num<20)
-                JOptionPane.showMessageDialog(null,"Very close!");
-            else
-                JOptionPane.showMessageDialog(null,"Wrong!");
-        }
+        if (e.getActionCommand ().equals ("Guess4")){
+       		JOptionPane.showMessageDialog(null,"Title","You won, it's the correct picture.",JOptionPane.INFORMATION_MESSAGE); 
+       	}
+	else 
+		JOptionPane.showMessageDialog(null,"Title","Nope, try again.",JOptionPane.INFORMATION_MESSAGE); 
     }
     protected static ImageIcon createImageIcon(String path) {
-        java.net.URL imgURL = SnowmanJumble.class.getResource(path);
+        java.net.URL imgURL = ancient_stone.class.getResource(path);
         if (imgURL != null) {
             return new ImageIcon(imgURL);
         }
@@ -55,7 +86,7 @@ public class SnowmanJumble extends JPanel implements ActionListener {
         frame.setSize(360, 470);         //resizes JFrame pane size
         frame.setBackground(Color.WHITE);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        SnowmanJumble panel = new SnowmanJumble();
+        ancient_stone panel = new ancient_stone();
         panel.setOpaque(true);
         frame.add(panel);
         frame.setLocationRelativeTo(null);
