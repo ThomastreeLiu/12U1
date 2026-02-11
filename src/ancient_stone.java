@@ -18,7 +18,8 @@ public class ancient_stone extends JPanel implements ActionListener {
     public ancient_stone() {
         setBackground(Color.BLUE);
         JLabel pic = new JLabel(createImageIcon("stone_quest.jpg"));
-        JLabel txt = new JLabel("choose the correct one fit the graph\n");
+        JLabel txt = new JLabel("choose the correct one fit the graph");
+	txt.setFont(new Font("Arial", Font.BOLD, 30));  
         txt.setForeground(Color.WHITE);
        
        	stone1.setBackground(Color.WHITE);
