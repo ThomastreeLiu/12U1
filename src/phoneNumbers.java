@@ -15,7 +15,7 @@ public class phoneNumbers{
     public phoneNumbers (){   
 
      
-
+             //123456789abcde
 String BCSS = "(604) 713-8180";   
 
 System.out.println (BCSS.substring (0, 14));           
@@ -39,6 +39,9 @@ System.out.println (BCSS.substring (0, 14));
         //(f) 7   
 	System.out.println(BCSS.charAt(6));
 
+	//blocker
+	             //0123456789abcd
+		     //(604) 713-8180
         //(g) 716-8180   
 	System.out.println(BCSS.substring(6,8));
 	System.out.print(BCSS.charAt(2));
